@@ -6,7 +6,7 @@ Date:16. 09. 2023
     - reduced technology cost.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.2
-Date:16. 09. 2023
+Date:16.09.2023
   Major Features:
     - Added 5 technology's for more trash slots.
     - Added 6 technology's for faster train braking speed.
