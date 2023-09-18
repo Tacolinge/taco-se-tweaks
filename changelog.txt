@@ -1,0 +1,13 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date:16. 09. 2023
+  Major Features:
+    - Added 5 technology's for more trash slots.
+    - Added 6 technology's for faster train braking speed.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 15. 09. 2023
+  Major Features:
+    - Initial release.
+    - Added a faster roboport and technology to unlock it.
+    - Changed landfill stacksize to 400
