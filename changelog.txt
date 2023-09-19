@@ -1,12 +1,21 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 18. 09. 2023
+  Major Features:
+    - Added Taco exoskeleton
+    - Two more train brake research
+    - Added a dobble decker wagon with dobble inventory size
+    - Recipe cost changes
+    - Added research to unlock new recipes
+---------------------------------------------------------------------------------------------------
 Version: 0.0.3
-Date:16. 09. 2023
+Date: 17. 09. 2023
   Major Features:
     - Added  technology's for worker robot speed.
     - reduced technology cost.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.2
-Date:16.09.2023
+Date: 16.09.2023
   Major Features:
     - Added 5 technology's for more trash slots.
     - Added 6 technology's for faster train braking speed.
