@@ -1,9 +1,9 @@
 {
   "name": "taco-se-tweaks",
   "version": "0.1.0",
-  "title": "Taco's space exploration tweaks ",
+  "title": "Taco's Space Exploration tweaks ",
   "author": "TacoLinge",
   "factorio_version": "1.1",
   "dependencies": ["base >= 1.1", "space-exploration >= 0.6.113"],
-  "description": "Adds a fast and powerful mid-game personal roboport mk3, landfill stacksize 400, trashslot research."
+  "description": "Some QoL mid-game items, QoL research (robotspeed,trashslots,trainbrakes) also changes landfill stacksize to 400"
 }
