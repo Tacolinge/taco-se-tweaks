@@ -1,14 +1,28 @@
 local tacoport = table.deepcopy(data.raw.item["personal-roboport-mk2-equipment"])
-
-
 tacoport.name = "tacoport-mk3"
 tacoport.icons ={
     {
     icon = tacoport.icon,
-    tint = {r=0,g=255,b=0,a=0.3}
+    tint = {r=0,g=255,b=0}
     },
 }
 tacoport.placed_as_equipment_result = "tacoport-mk3"
+
+local tacoexo1 = table.deepcopy(data.raw.item["exoskeleton-equipment"])
+tacoexo1.name = "taco-exoskeleton"
+tacoexo1.icons = {
+    {
+        icon = tacoexo1.icon,
+        tint = {r=0,g=255,b=0}
+    },
+}
+tacoexo1.placed_as_equipment_result = "taco-exoskeleton"
+
+local doble_decker_wagon =table.deepcopy(data.raw["item-with-entity-data"]["cargo-wagon"])
+doble_decker_wagon.name = "doble-decker-wagon"
+doble_decker_wagon.icon = "__taco-se-tweaks__/graphics/cargo-wagon.png"
+doble_decker_wagon.icon_size = 32
+doble_decker_wagon.place_result = "doble-decker-wagon"
 
 --landfill stacksize
 local landfill = data.raw.item["landfill"]
@@ -16,4 +30,4 @@ landfill.stack_size = 400
 
 
 
-data:extend({tacoport, landfill})
+data:extend({tacoport, tacoexo1, landfill, doble_decker_wagon})
