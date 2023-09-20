@@ -15,12 +15,12 @@ Should work on existing saves.
     - Unlocked after energy science-3 and material science-3
   - Taco exoskeleton
     - 50% movement bonus at 600kW consuption
-    - - Unlocked after energy science-3, material science-3 and bio science
+    - Unlocked after energy science-3, material science-3 and bio science
   - Doble decker wagon
     - cargo-wagon with 80 inventory slots
     - 2000 weight 
     - 8000 health
-    - 
+      
 <b>New bonus reserach:</b>
   - multiple trash slots (30 total)
   - mulitple train braking force(300% total)
