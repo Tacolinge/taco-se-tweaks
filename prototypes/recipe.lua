@@ -19,19 +19,20 @@ tacoexo1.ingredients = {
     {"speed-module-3", 20},
     {"se-holmium-solenoid", 200},
     {"se-quantum-processor", 5},
+    {"se-vitalic-reagent", 5},
 }
 
-local dobble_decker_wagon = table.deepcopy(data.raw.recipe["cargo-wagon"])
-dobble_decker_wagon.name = "dobble-decker-wagon"
-dobble_decker_wagon.result = "dobble-decker-wagon"
-dobble_decker_wagon.energy_required = 100
-dobble_decker_wagon.ingredients = {
+local doble_decker_wagon = table.deepcopy(data.raw.recipe["cargo-wagon"])
+doble_decker_wagon.name = "doble-decker-wagon"
+doble_decker_wagon.result = "doble-decker-wagon"
+doble_decker_wagon.energy_required = 100
+doble_decker_wagon.ingredients = {
     {"cargo-wagon", 2},
     {"steel-plate", 100},
     {"iron-gear-wheel", 100},
     {"copper-cable", 50},
     {"energy-shield-mk2-equipment", 1},
-    {"se-quantum-processor", 1}
+    {"se-quantum-processor", 1},
 }
-dobble_decker_wagon.enabled = true
-data:extend{tacoport, tacoexo1, dobble_decker_wagon}
+doble_decker_wagon.enabled = true
+data:extend{tacoport, tacoexo1, doble_decker_wagon}

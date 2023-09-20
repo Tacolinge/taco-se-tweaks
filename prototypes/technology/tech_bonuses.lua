@@ -280,8 +280,10 @@ tacotrainspeed7.unit = {
         {"se-energy-science-pack-3", 1},
         {"se-energy-science-pack-4", 1}
     },
-    time = 70,
+    time = 120,
 }
+
+---------WORKER ROBOT SPEED---------
 
 local tacorobotspeed = table.deepcopy(data.raw.technology["worker-robots-speed-1"])
 tacorobotspeed.name = "taco-robot-speed"
@@ -408,7 +410,32 @@ tacorobotspeed5.unit = {
     time = 60,
 }
 
+---------MINING PRODUCTIVITY---------
+local taco_mining_prod = table.deepcopy(data.raw.technology["mining-productivity-1"])
+taco_mining_prod.name = "taco-mining-productivity"
+taco_mining_prod.prerequisites = {"mining-productivity-5","utility-science-pack"}
+taco_mining_prod.effects = {{
+    type = "mining-drill-productivity-bonus",
+    modifier = "0.20"
+}}
+taco_mining_prod.unit = {
+    count = 12000,
+    ingredients = {
+    {"automation-science-pack", 1},
+    {"logistic-science-pack", 1},
+    {"chemical-science-pack", 1},
+    {"military-science-pack",1},
+    {"space-science-pack", 1},
+    {"production-science-pack", 1},
+    {"utility-science-pack", 1},
+    },
+    time = 60,
+}
+
+
+
 
 data:extend{tacotrash1, tacotrash2, tacotrash3, tacotrash4, tacotrash5,
  tacotrainspeed0, tacotrainspeed1, tacotrainspeed2, tacotrainspeed3, tacotrainspeed4, tacotrainspeed5, tacotrainspeed6, tacotrainspeed7,
-tacorobotspeed, tacorobotspeed1, tacorobotspeed2, tacorobotspeed3, tacorobotspeed4, tacorobotspeed5}
+tacorobotspeed, tacorobotspeed1, tacorobotspeed2, tacorobotspeed3, tacorobotspeed4, tacorobotspeed5,
+taco_mining_prod}

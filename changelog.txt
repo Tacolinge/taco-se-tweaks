@@ -1,12 +1,13 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.0.4
-Date: 18. 09. 2023
+Version: 0.1.0
+Date: 20. 09. 2023
   Major Features:
     - Added Taco exoskeleton
     - Two more train brake research
-    - Added a dobble decker wagon with dobble inventory size
+    - Added a doble decker wagon with doble inventory size and more health
     - Recipe cost changes
     - Added research to unlock new recipes
+    - Added green to all new items/entities
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.3
 Date: 17. 09. 2023
