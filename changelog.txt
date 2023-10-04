@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 04. 10. 2023
+  Features:
+    - added OP tacofuel with 2500% acceleration and 600% top speed (require all se-science pack 4 to reserach)
+    - ---
+  changes:
+    - reduced Freddie's dobble decker wagon weight to 1300
+    - increased all wagon's max_speed = 1000
+  Bugfixes:
+    - freiddie's doble decker wagon recipe is no longer enabled by defualt 
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 20. 09. 2023
   Major Features:
