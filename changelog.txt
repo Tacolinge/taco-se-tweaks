@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
-Date: 04. 10. 2023
+Date: 08. 10. 2023
   Features:
     - added OP tacofuel with 2500% acceleration and 600% top speed (require all se-science pack 4 to reserach)
     - infinity research for autotrash and train breaking speed

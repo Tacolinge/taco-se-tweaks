@@ -37,7 +37,7 @@ doble_decker_wagon.ingredients = {
 local tacofuel ={
     type = "recipe",
     name = "taco-fuel",
-    energy_required = 10,
+    energy_required = 15,
     ingredients = 
     {
         {"rocket-fuel", 10},
@@ -49,7 +49,7 @@ local tacofuel ={
         {"speed-module-3", 1}
     },
     result = "taco-fuel",
-    result_count = 5,
+    result_count = 10,
     enabled = false
 }
 

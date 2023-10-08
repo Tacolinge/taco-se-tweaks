@@ -317,7 +317,7 @@ tacotrainspeedinfi.effects = {{
     modifier = 0.20
 }}
 tacotrainspeedinfi.unit = {
-    count_formula = "100+(400*L)",
+    count_formula = "50+(100*L)",
     ingredients = {
         {"automation-science-pack", 1},
         {"logistic-science-pack", 1},

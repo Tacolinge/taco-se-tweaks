@@ -37,7 +37,7 @@ tacofuel.icons ={
     },
 }
 tacofuel.fuel_category = "chemical"
-tacofuel.fuel_value = "250MJ"
+tacofuel.fuel_value = "400MJ"
 tacofuel.fuel_acceleration_multiplier = 25.0
 tacofuel.fuel_top_speed_multiplier = 6.0
 tacofuel.subgroup = "intermediate-product"
