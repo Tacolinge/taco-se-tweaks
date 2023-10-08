@@ -95,6 +95,33 @@ tacotrash5.unit = {
     },
     time = 60,
 }
+local tacotrashinfi = table.deepcopy(data.raw.technology["personal-roboport-equipment"])
+tacotrashinfi.name= "taco-trash-infi"
+tacotrashinfi.prerequisites = {"se-astronomic-science-pack-4", "se-biological-science-pack-4", "se-energy-science-pack-4", "se-material-science-pack-4", "taco-trash5"}
+tacotrashinfi.effects = {{
+    type = "character-logistic-trash-slots",
+    modifier = 5
+}}
+tacotrashinfi.unit = {
+    count_formula = "100+(400*L)",
+    ingredients = {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"space-science-pack", 1},
+        {"military-science-pack", 1},
+        {"production-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"se-astronomic-science-pack-4",1},
+        {"se-biological-science-pack-4",1},
+        {"se-energy-science-pack-4", 1},
+        {"se-material-science-pack-4", 1}
+    },
+    time = 60,
+    }
+tacotrashinfi.max_level = "infinite"
+tacotrashinfi.upgrade = true
+tacotrashinfi.order = "b-f-g"
 
 ---------TRAIN BREAK SPEED---------
 
@@ -282,6 +309,33 @@ tacotrainspeed7.unit = {
     },
     time = 120,
 }
+local tacotrainspeedinfi = table.deepcopy(data.raw.technology["braking-force-1"])
+tacotrainspeedinfi.name= "taco-train-speed-infi"
+tacotrainspeedinfi.prerequisites = {"se-astronomic-science-pack-4", "se-biological-science-pack-4", "se-energy-science-pack-4", "se-material-science-pack-4", "taco-train-speed7"}
+tacotrainspeedinfi.effects = {{
+    type = "train-braking-force-bonus",
+    modifier = 0.20
+}}
+tacotrainspeedinfi.unit = {
+    count_formula = "50+(100*L)",
+    ingredients = {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"space-science-pack", 1},
+        {"military-science-pack", 1},
+        {"production-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"se-astronomic-science-pack-4",1},
+        {"se-biological-science-pack-4",1},
+        {"se-energy-science-pack-4", 1},
+        {"se-material-science-pack-4", 1}
+    },
+    time = 60,
+    }
+tacotrainspeedinfi.max_level = "infinite"
+tacotrainspeedinfi.upgrade = true
+tacotrainspeedinfi.order = "b-f-g"
 
 ---------WORKER ROBOT SPEED---------
 
@@ -435,7 +489,7 @@ taco_mining_prod.unit = {
 
 
 
-data:extend{tacotrash1, tacotrash2, tacotrash3, tacotrash4, tacotrash5,
- tacotrainspeed0, tacotrainspeed1, tacotrainspeed2, tacotrainspeed3, tacotrainspeed4, tacotrainspeed5, tacotrainspeed6, tacotrainspeed7,
+data:extend{tacotrash1, tacotrash2, tacotrash3, tacotrash4, tacotrash5, tacotrashinfi,
+ tacotrainspeed0, tacotrainspeed1, tacotrainspeed2, tacotrainspeed3, tacotrainspeed4, tacotrainspeed5, tacotrainspeed6, tacotrainspeed7, tacotrainspeedinfi,
 tacorobotspeed, tacorobotspeed1, tacorobotspeed2, tacorobotspeed3, tacorobotspeed4, tacorobotspeed5,
 taco_mining_prod}

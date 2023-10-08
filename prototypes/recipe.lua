@@ -8,7 +8,6 @@ tacoport.ingredients = {
     {"se-quantum-processor", 5},
     {"personal-roboport-mk2-equipment", 10},
 }
---tacoport.enabled = true --activate recipe from start
 
 local tacoexo1 = table.deepcopy(data.raw.recipe["exoskeleton-equipment"])
 tacoexo1.name = "taco-exoskeleton"
@@ -34,5 +33,25 @@ doble_decker_wagon.ingredients = {
     {"energy-shield-mk2-equipment", 1},
     {"se-quantum-processor", 1},
 }
-doble_decker_wagon.enabled = true
-data:extend{tacoport, tacoexo1, doble_decker_wagon}
+
+local tacofuel ={
+    type = "recipe",
+    name = "taco-fuel",
+    energy_required = 15,
+    ingredients = 
+    {
+        {"rocket-fuel", 10},
+        {"nuclear-fuel", 5},
+        {"se-vulcanite-block", 10},
+        {"se-self-sealing-gel", 2},
+        {"se-nanomaterial", 1},
+        {"se-lattice-pressure-vessel", 1},
+        {"speed-module-3", 1}
+    },
+    result = "taco-fuel",
+    result_count = 10,
+    enabled = false
+}
+
+
+data:extend{tacoport, tacoexo1, doble_decker_wagon, tacofuel}

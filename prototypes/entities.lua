@@ -15,7 +15,7 @@ data:extend(
     collision_box = {{-0.6, -2.4}, {0.6, 2.4}},
     selection_box = {{-1, -2.703125}, {1, 3.296875}},
     vertical_selection_shift = -0.796875,
-    weight = 2000, --tweaked
+    weight = 1300, --tweaked
     max_speed = 1.2,
     braking_force = 3,
     friction_force = 0.50,
