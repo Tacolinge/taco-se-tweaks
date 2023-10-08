@@ -20,14 +20,14 @@ Should work on existing saves.
   - Unlocked after energy science-3, material science-3 and bio science
 - Doble decker wagon
   - cargo-wagon with 80 inventory slots
-  - 2000 weight
+  - 1300 weight
   - 8000 health
 - Taco fuel (train)
-  -2500% acceleration and 600% top speed
+  - 2500% acceleration and 600% top speed
 
 <b>New bonus reserach:</b>
 
-- multiple trash slots (30 total)
-- mulitple train braking force(300% total)
+- multiple trash slots (30 total) +infinity reserach with all science pack-4
+- mulitple train braking force(300% total) +infinity reserach with all science pack-4
 - multiple faster worker robotspeed(210%)
 - mining productivity(20%)
